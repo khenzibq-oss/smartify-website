@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartify Indonesia - Perangkat Pintar & Otomatisasi</title>
+    <style>
+        /* RESET & CSS DASAR */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background: #0f172a; color: #cbd5e1; line-height: 1.8; scroll-behavior: smooth; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        
+        /* HEADER & NAV */
+        header { background: #0f172a; border-bottom: 1px solid #1e293b; padding: 20px 0; position: sticky; top: 0; z-index: 100; }
+        .nav-wrap { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.3rem; font-weight: bold; color: #38bdf8; text-decoration: none; }
+        nav a { color: #94a3b8; text-decoration: none; margin-left: 20px; font-size: 0.9rem; font-weight: 500; }
+        nav a:hover { color: #38bdf8; }
+
+        /* SECTIONS GENERAL */
+        section { padding: 70px 0; border-bottom: 1px solid #1e293b; }
+        h2 { font-size: 1.8rem; color: #ffffff; margin-bottom: 20px; }
+        p { margin-bottom: 15px; font-size: 1rem; color: #94a3b8; }
+        
+        /* HOME (HERO) */
+        .home { text-align: center; padding-top: 90px; }
+        .home h1 { font-size: 2.4rem; color: #ffffff; margin-bottom: 20px; line-height: 1.3; }
+        .home-img { width: 100%; max-height: 380px; object-fit: cover; border-radius: 8px; margin: 30px 0; border: 1px solid #334155; }
+        
+        /* ABOUT */
+        .about-content { display: flex; flex-direction: column; gap: 15px; }
+
+        /* SERVICE */
+        .service-list { display: flex; flex-direction: column; gap: 25px; margin-top: 30px; }
+        .service-item { background: #1e293b; padding: 25px; border-radius: 8px; border-left: 4px solid #38bdf8; }
+        .service-item h3 { color: #ffffff; margin-bottom: 10px; font-size: 1.2rem; }
+        .service-item p { margin-bottom: 0; }
+
+        /* CONTACT */
+        .contact { text-align: center; }
+        .btn { display: inline-block; background: #06b6d4; color: #0f172a; padding: 12px 25px; text-decoration: none; font-weight: bold; border-radius: 5px; margin-top: 15px; transition: background 0.3s; }
+        .btn:hover { background: #22d3ee; }
+
+        /* FOOTER */
+        footer { text-align: center; padding: 30px 0; color: #64748b; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Navigasi -->
+    <header>
+        <div class="container nav-wrap">
+            <a href="#home" class="logo">SMARTIFY.ID</a>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Service</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- HOME SECTION -->
+        <section id="home" class="home">
+            <h1>Solusi Praktis Mengubah Tempat Tinggal & Kantor Jadi Serba Pintar</h1>
+            <p>Kami hadir untuk membantu Anda merancang, memasang, dan merawat ekosistem perangkat otomatisasi tanpa proses yang rumit.</p>
+            <img src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1000&q=80" alt="Smart Home Setup" class="home-img">
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2>About Smartify Indonesia</h2>
+            <div class="about-content">
+                <p>Berawal dari pengalaman pribadi melihat betapa repotnya menyatukan berbagai perangkat pintar yang dibeli secara terpisah, kami mendirikan Smartify Indonesia pada tahun 2020. Banyak orang ingin rumahnya canggih, tapi bingung bagaimana cara menghubungkan semuanya dalam satu genggaman yang stabil.</p>
+                <p>Misi kami sederhana: menyediakan perangkat berkualitas tinggi yang ramah pengguna, didukung oleh tim teknisi lokal yang siap membantu instalasi secara langsung di lokasi Anda. Tidak ada istilah salah beli atau aplikasi yang error, karena kami memastikan sistem sudah teruji sebelum diserahkan kepada Anda.</p>
+            </div>
+        </section>
+
+        <!-- SERVICE SECTION -->
+        <section id="service">
+            <h2>Our Service</h2>
+            <p>Beberapa fokus layanan utama yang biasa kami kerjakan untuk klien perumahan maupun komersial:</p>
+            
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>1. Instalasi Keamanan Cerdas (Smart Security)</h3>
+                    <p>Pemasangan kunci pintu digital berbasis sidik jari atau PIN, kamera pengawas (CCTV) beresolusi tinggi dengan fitur deteksi gerakan, hingga sensor pintu yang terhubung langsung ke ponsel pintar untuk memantau keamanan dari mana saja.</p>
+                </div>
+                <div class="service-item">
+                    <h3>2. Otomatisasi Lampu & Energi</h3>
+                    <p>Mengganti sakelar konvensional dengan sakelar sentuh modern serta stopkontak pintar. Memungkinkan Anda mengatur jadwal lampu menyala atau mati otomatis, sehingga efisiensi listrik bulanan bisa ditekan secara maksimal.</p>
+                </div>
+                <div class="service-item">
+                    <h3>3. Kontrol Iklim & Kenyamanan Ruangan</h3>
+                    <p>Integrasi sensor suhu dan kelembapan yang dapat memerintahkan AC atau penjernih udara (air purifier) untuk menyesuaikan kondisi ruangan secara otomatis tanpa perlu repot menekan tombol remote manual.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Punya pertanyaan seputar perangkat yang cocok untuk rumah Anda, atau ingin menjadwalkan konsultasi survei lokasi? Silakan hubungi tim kami langsung via WhatsApp.</p>
+            <a href="https://wa.me/6281234567890" class="btn" target="_blank">Chat via WhatsApp</a>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 PT Smartify Teknologi Indonesia. Hak Cipta Dilindungi.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
